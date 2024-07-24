@@ -1,0 +1,229 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.header {
+	background: rgba(77,189,254,1);
+background: -moz-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(77,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+background: -webkit-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: linear-gradient(135deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbdfe', endColorstr='#3790d9', GradientType=1 );
+padding-top: 100px;
+color: #fff;
+}
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+.offer {
+	width: 560px;
+}
+.title {
+	font-size: 37px;
+}
+h1 span {
+	font-size: 59px;
+}
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	background: #ffd429;
+	color: #000;
+	display: block;
+	width: 222px;
+	height: 57px;
+	padding: 19px 26px;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+	margin: 42px 0;
+	margin-bottom: 213px;
+}
+.btn:hover {
+	background: #e3bd24;
+}
+h1 {
+	width: 565px;
+}
+.traveling {
+	margin-top: 50px;
+	width: 525px;
+	height: 525px;
+}
+.title {
+	font-size: 30px;
+}
+.expectation {
+	padding-top: 108px;
+	padding-bottom: 120px;
+}
+.text {
+	text-align: center;
+}
+.advantages {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 65px;
+	text-align: center;
+	align-items:center;
+}
+.advantage-title {
+	font-size: 19px;
+}
+.advantage-text {
+	margin-top: 10;
+}
+.advantage {
+	width: 300px;
+	height: 175px;
+	background: url('../img/icon1.jpg') no-repeat top;
+	padding-top: 70px;
+	
+}
+.advantage-travelling {
+	width: 268px;
+	background: url('../img/icon2.jpg') no-repeat top;
+	padding-top: 70px;
+}
+.advantage-create {
+	width: 305px;
+	background: url('../img/icon3.jpg') no-repeat top;
+	padding-top: 70px;
+}
+.mail {
+	background: #ecf3f8;
+	padding-bottom: 102px;
+	padding-top: 103px;
+}
+.form-text {
+	padding-bottom: 57px;
+	text-align: center;
+}
+.footer {
+	background: #164d7a;
+	padding-top: 61px;
+	padding-bottom: 67px;
+}
+.btn-form {
+	border: 0;
+	width: 340px;
+	margin: 0 auto;
+}
+.input {
+	width: 340px;
+	border: 1px solid bbbbbb;
+	display: block;
+	height: 48px;
+	font-size: 15px;
+	margin: 0 auto 15px;
+}
+.credits {
+	margin: 0;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	box-sizing: content-box;
+}
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+}
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.btn {
+		margin-bottom: 0
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	.offer {
+		width: auto;
+	}
+	.intro {
+		width: auto;
+	}
+	.traveling {
+		display: block;
+	    width: 641px;
+	    height: 641px;
+	    margin: 50px auto 0;
+	}
+	.advantages {
+		flex-direction: column;
+	}
+	.advantage {
+		width: auto;
+		margin-bottom: 40px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.traveling {
+		width: 100%;
+	}
+	.input {
+		width: 100%;
+	}
+	.btn {
+	    width: 100%;
+	    margin-bottom: 0;
+	}
+}
+@media screen and (max-width: 576px) {
+	.btn{
+		margin-bottom: 42px;
+		width: 360px
+	}
+	.offer {
+       padding-left: 0;
+       width: 360px;
+       font-size: 15px;
+       height: auto;
+	}
+	.title {
+		width: 360px;
+		height: auto
+	}
+	
+	.container {
+		width: 360px;
+	}
+	.wrapper {
+		flex-direction: block;
+	}
+	.traveling {
+		display: block;
+	    width: 360px;
+	    height: 360px;
+	    margin-top: 0
+	}
+	.advantages {
+		flex-direction: column;
+	}
+	.advantage {
+		width: auto;
+		margin-bottom: 40px;
+	}
+	
+}
